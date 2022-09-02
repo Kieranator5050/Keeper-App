@@ -1,9 +1,13 @@
-import React from 'react';
+import Header from "./Header";
+import Footer from "./Footer";
+import Note from "./Note";
 
 function App() {
   return (
     <div>
-      <h1>Test</h1>
+      <Header />
+      <Note />
+      <Footer />
     </div>
   );
 }
